@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="27.0" layoutY="27.0" text="Nom :" />
+            <DatePicker layoutX="138.0" layoutY="60.0" />
+            <TextField layoutX="138.0" layoutY="23.0" />
+            <TextField layoutX="435.0" layoutY="23.0" />
+            <TextField layoutX="138.0" layoutY="141.0" />
+            <RadioButton layoutX="87.0" layoutY="107.0" mnemonicParsing="false" text="Monsieur">
+               <toggleGroup>
+                  <ToggleGroup fx:id="civilite" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton layoutX="179.0" layoutY="107.0" mnemonicParsing="false" text="Madame" toggleGroup="$civilite" />
+            <TextField layoutX="435.0" layoutY="141.0" />
+            <TextField layoutX="435.0" layoutY="60.0" />
+            <TextField layoutX="435.0" layoutY="103.0" />
+            <Label layoutX="360.0" layoutY="64.0" text="Telephone :" />
+            <Label layoutX="29.0" layoutY="107.0" prefHeight="17.0" prefWidth="47.0" text="Civilite :" />
+            <Label layoutX="25.0" layoutY="64.0" text="Date de naissance :" />
+            <Label layoutX="360.0" layoutY="27.0" text="Prenom :" />
+            <Label layoutX="360.0" layoutY="107.0" text="Portable :" />
+            <Label layoutX="360.0" layoutY="145.0" text="MdP :" />
+            <Label layoutX="27.0" layoutY="145.0" text="Email :" />
+            <Button layoutX="532.0" layoutY="207.0" mnemonicParsing="false" text="Valider" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
